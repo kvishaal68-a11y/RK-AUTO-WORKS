@@ -2,80 +2,54 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>RK AUTO WORKS | Bike Service Center in Gobichettipalayam</title>
-
-<meta name="description" content="RK AUTO WORKS is the best bike service center in Gobichettipalayam, Erode. Expert mechanic, affordable price, fast service. Call 9994140966">
-<meta name="keywords" content="Bike service Gobichettipalayam, Bike workshop Erode, Two wheeler service, RK Auto Works">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
+<title>RK AUTO WORKS - Bike Service</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{margin:0;font-family:Arial;background:#f4f4f4}
+header{background:#111;color:white;text-align:center;padding:25px}
+section{padding:20px}
+.box{background:white;padding:15px;margin:15px 0;border-radius:10px}
+button{background:green;color:white;border:none;padding:12px 20px;border-radius:8px;font-size:16px}
+footer{background:#111;color:white;text-align:center;padding:15px}
+</style>
 </head>
 <body>
 
 <header>
-  <h1>RK AUTO WORKS</h1>
-  <p>Trusted Two Wheeler Service Center</p>
-  <a href="tel:9994140966" class="callbtn">📞 Call Now</a>
+<h1>RK AUTO WORKS</h1>
+<p>Trusted Bike Workshop – Gobichettipalayam</p>
 </header>
 
-<nav>
-  <a href="#home">Home</a>
-  <a href="#services">Services</a>
-  <a href="#price">Price List</a>
-  <a href="#booking">Book Service</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-<section id="home" class="hero">
-  <h2>Best Bike Service Center in Gobichettipalayam</h2>
-  <p>Quality Service • Genuine Spare Parts • Affordable Price</p>
-</section>
-
-<section id="services">
+<section>
+<div class="box">
 <h2>Our Services</h2>
-<div class="grid">
-  <div>General Service</div>
-  <div>Engine Overhaul</div>
-  <div>Oil Change</div>
-  <div>Chain Sprocket Change</div>
-  <div>Brake Service</div>
-  <div>Electrical Works</div>
-  <div>Water Wash</div>
-  <div>Pickup & Drop</div>
+<ul>
+<li>General Service</li>
+<li>Engine Oil Change</li>
+<li>Chain Cleaning</li>
+<li>Brake Repair</li>
+<li>Water Wash</li>
+</ul>
+</div>
+
+<div class="box">
+<h2>Book Service</h2>
+<a href="https://wa.me/919994140966">
+<button>Book on WhatsApp</button>
+</a>
+</div>
+
+<div class="box">
+<h2>Contact</h2>
+<p>📍 Amala School Street, Gobichettipalayam</p>
+<p>📞 9994140966</p>
 </div>
 </section>
 
-<section id="price">
-<h2>Price List</h2>
-<table>
-<tr><th>Service</th><th>Price</th></tr>
-<tr><td>General Service</td><td>₹300</td></tr>
-<tr><td>Oil Change</td><td>₹150</td></tr>
-<tr><td>Brake Service</td><td>₹200</td></tr>
-<tr><td>Water Wash</td><td>₹100</td></tr>
-<tr><td>Engine Work</td><td>Starts from ₹500</td></tr>
-</table>
-</section>
+<footer>
+<p>© 2025 RK AUTO WORKS</p>
+</footer>
 
-<section id="booking">
-<h2>Book Your Service</h2>
-<form onsubmit="sendBooking(); return false;">
-<input id="name" placeholder="Your Name" required>
-<input id="phone" placeholder="Phone Number" required>
-<input id="service" placeholder="Required Service" required>
-<button type="submit">Book via WhatsApp</button>
-</form>
-</section>
-
-<section id="contact">
-<h2>Contact</h2>
-<p>📍 Amala School Street, Gobichettipalayam, Erode</p>
-<p>📞 9994140966</p>
-<p>🕘 Mon – Sun : 9AM – 8PM</p>
-</section>
-
-<footer>© 2025 RK AUTO WORKS</footer>
-
-<script src="script.js"></script>
 </body>
 </html>
+
